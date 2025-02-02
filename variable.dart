@@ -14,4 +14,9 @@ void main(){
   print("Height is $height");
   print("Married Status is $isMarried");
 
+
+  //dart constant variable
+  const PI =3.14;
+  //PI = 3.33; //can't change constant valu
+  print("Value of PI is $PI");
 }
