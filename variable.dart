@@ -1,11 +1,17 @@
 void main(){
-  var name = "Asif Shahriar";
-  print(name);
+  
+  //using all variable in dart language
 
-  //join variable
-  var firstName = "Asif";
-  var lastName = "Shahriar";
+  String name ="Asif Shahriar";
+  String address ="Bangladesh";
+  num age = 20;
+  num height = 5.9;
+  bool isMarried = true;
 
-  print("Full name is $firstName $lastName");
+  print("Name is $name");
+  print("Address is $address");
+  print("Age is $age");
+  print("Height is $height");
+  print("Married Status is $isMarried");
 
 }
